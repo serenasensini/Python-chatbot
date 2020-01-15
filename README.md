@@ -1,9 +1,9 @@
-#Breve guida
+# Breve guida
 
 Per poter partecipare al workshop, seguire questi semplici passi:
 
-###Verificare di aver installato Python3 sul pc:
-####Windows
+### Verificare di aver installato Python3 sul pc:
+#### Windows
 Aprire la riga di comando, cliccando sul pulsante Start e scrivendo "cmd"; digitare `python` nella riga di comando e dare invio. Se il risultato è simile a questo:
   
 ```
@@ -13,7 +13,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 vuol dire che Python è installato. Altrimenti, scaricare la versione più recente di Python a [questo](https://www.python.org/downloads/) link.                                                                                                                                                                                                                                     
 
-###Unix/MacOS
+### Unix/MacOS
 Aprire il terminale e digitare `python3` nella riga di comando, e dare invio. 
 Se il risultato è simile a questo:
   
@@ -30,7 +30,7 @@ Dopo aver scaricato questo repository, salvarlo in una cartella nota; aprire il 
 
 `pip3 install -r requirements.txt`
 
-###Verificare il corretto funzionamento del progetto
+### Verificare il corretto funzionamento del progetto
 Digitare da riga di comando: 
 
 `python3 train.py`                                  
