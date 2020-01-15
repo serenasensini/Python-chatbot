@@ -1,0 +1,5 @@
+nltk>=3.4.5
+numpy>=1.16.2
+keras>=2.1.5
+tensorflow===2.0.0
+EasyTkinter>=1.1.0
