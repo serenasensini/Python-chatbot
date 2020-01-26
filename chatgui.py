@@ -1,4 +1,3 @@
-
 import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
@@ -60,9 +59,11 @@ def getResponse(ints, intents_json):
 def chatbot_response(msg):
     ints = predict_class(msg, model)
     res = getResponse(ints, intents)
+    print(res)
     return res
 
-
+chatbot_response('Thank you')
+'''
 #Creating GUI with tkinter
 import tkinter
 from tkinter import *
@@ -115,3 +116,4 @@ EntryBox.place(x=128, y=401, height=90, width=265)
 SendButton.place(x=6, y=401, height=90)
 
 base.mainloop()
+'''

@@ -36,9 +36,9 @@ for intent in intents['intents']:
             classes.append(intent['tag'])
 
 words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words]
-words = sorted(list(set(words)))
+#words = sorted(list(set(words)))
 
-classes = sorted(list(set(classes)))
+#classes = sorted(list(set(classes)))
 
 print (len(documents), "documents")
 print("###########DOCUMENTS")
@@ -71,7 +71,7 @@ for doc in documents:
 
     training.append([bag, output_row])
 # shuffle our features and turn into np.array
-random.shuffle(training)
+#random.shuffle(training)
 training = np.array(training)
 # create train and test lists. X - patterns, Y - intents
 train_x = list(training[:,0])
