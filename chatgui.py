@@ -57,4 +57,10 @@ def inizia(msg):
     print(res)
     return res
 
-inizia('Ciao!')
+utente = ''
+print('Benvenuto! Per uscire, scrivi "Esci"')
+
+while utente != 'esci':
+    utente = str(input(""))
+    res = inizia(utente)
+    print('AI:' + res)
