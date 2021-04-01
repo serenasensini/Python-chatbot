@@ -4,7 +4,8 @@ lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 
-from keras.models import load_model
+from tensorflow.keras.models import load_model
+
 model = load_model('chatbot_model.h5')
 import json
 import random
@@ -54,7 +55,6 @@ def getRisposta(ints, intents_json):
 def inizia(msg):
     ints = calcola_pred(msg, model)
     res = getRisposta(ints, intents)
-    print(res)
     return res
 
 utente = ''

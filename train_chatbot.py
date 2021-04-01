@@ -7,9 +7,9 @@ import json
 import pickle
 
 import numpy as np
-from keras.models import Sequential
-from keras.layers import Dense, Dropout
-from keras.optimizers import SGD
+from tensorflow.keras import Sequential
+from tensorflow.keras.layers import Conv2D, Flatten, Dense, Dropout
+from tensorflow.keras.optimizers import SGD
 
 lemmatizer = WordNetLemmatizer()
 words = []
